@@ -175,5 +175,19 @@
       "Features": "Low noise, easy to clean, carry strap",
       "Use": "Home, office, gym, car, outdoor"
     }
+  },
+  {
+    "id": "electric-spice-grinder",
+    "name": "Electric Salt & Pepper Grinder",
+    "category": "Kitchen & On the Go",
+    "price": null,
+    "currency": "QAR",
+    "image": "/products/electric-spice-grinder.jpg",
+    "description": "One-touch grinding for salt, pepper and spices, at the table or the barbecue. A sleek stainless steel grinder with a clear chamber so you always see what's inside.",
+    "specs": {
+      "Operation": "One-button",
+      "Body": "Stainless steel with clear chamber",
+      "Use": "Kitchen, dining table, barbecue"
+    }
   }
 ]
