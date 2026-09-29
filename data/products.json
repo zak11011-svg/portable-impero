@@ -86,19 +86,19 @@
     }
   },
   {
-    "id": "magnetic-phone-holder",
-    "name": "Magnetic Aluminium Phone & Tablet Holder",
-    "category": "Car & On the Go",
+    "id": "magnetic-laptop-phone-mount",
+    "name": "Magnetic Laptop Phone Mount",
+    "category": "Tech & Work",
     "price": null,
     "currency": "QAR",
-    "image": null,
-    "description": "A compact, flexible magnetic holder for phones and small tablets. Use it on your desk, bedside, car dashboard or bike.",
+    "image": "/products/magnetic-laptop-phone-mount.jpg",
+    "description": "A slim aluminium mount that attaches to the side of your laptop screen and holds your phone magnetically beside it. Perfect as a second screen for calls, chats or notes, and folds flat to carry anywhere.",
     "specs": {
-      "Fits": "Phones and tablets, 3–8 inch, all brands",
+      "Fits": "Phones and small tablets, 3–8 inch, all brands",
       "Material": "Aluminium alloy",
       "Mounting": "Magnetic",
-      "Features": "Waterproof, flexible, portable, mini size",
-      "Use": "Desk, bed, living room, car dashboard, riding"
+      "Features": "Foldable, adjustable, portable, mini size",
+      "Use": "Laptop, desk, bedside, car dashboard"
     }
   }
 ]
