@@ -15,5 +15,29 @@
       "Size": "118 × 31.5 × 13.5 cm",
       "Weight": "5.2 kg"
     }
+  },
+  {
+    "id": "triple-laptop-screen-extender",
+    "name": "Triple Laptop Screen Extender",
+    "category": "Tech & Work",
+    "price": null,
+    "currency": "QAR",
+    "image": "/products/triple-laptop-screen-extender.jpg",
+    "description": "Two fold-out screens that clip onto your laptop and turn it into a three-screen workstation. Plugs in with USB-C and folds flat to take anywhere.",
+    "specs": {
+      "Screen size": "14 inch (x2)",
+      "Resolution": "1920 × 1200 (Full HD+)",
+      "Panel": "IPS A+ grade, matte",
+      "Aspect ratio": "16:10",
+      "Refresh rate": "60 Hz",
+      "Response time": "5 ms",
+      "Brightness": "250 cd/m²",
+      "Contrast": "1500:1",
+      "Connection": "USB-C",
+      "Fits laptops": "12–17.3 inch",
+      "Touch screen": "No",
+      "Speakers": "No",
+      "Material": "Plastic"
+    }
   }
 ]
