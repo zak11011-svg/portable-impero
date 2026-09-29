@@ -138,5 +138,23 @@
       "Energy rating": "A+++",
       "Includes": "Ice scoop"
     }
+  },
+  {
+    "id": "portable-bottle-warmer",
+    "name": "Portable Baby Bottle Warmer",
+    "category": "Baby & Family",
+    "price": null,
+    "currency": "QAR",
+    "image": "/products/portable-bottle-warmer.jpg",
+    "description": "Warm milk to the perfect temperature anywhere — in the car, at the mall or on a trip. A rechargeable, cordless bottle with a digital temperature display, ready whenever your baby is.",
+    "specs": {
+      "Battery": "15,000 mAh rechargeable",
+      "Capacity": "350 ml, with measurement marks",
+      "Display": "Digital temperature display (°C / °F)",
+      "Controls": "Electronic buttons",
+      "Power options": "Battery, USB",
+      "Material": "Plastic",
+      "Use": "Car, home, travel, outdoor"
+    }
   }
 ]
