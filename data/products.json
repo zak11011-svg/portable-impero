@@ -1,0 +1,19 @@
+[
+  {
+    "id": "dual-monitor-stand",
+    "name": "Dual-Tier Desk Shelf & Monitor Stand",
+    "category": "Home Office",
+    "price": null,
+    "currency": "QAR",
+    "image": "/products/dual-monitor-stand.jpg",
+    "description": "An extendable two-level desk shelf that lifts your monitor to eye level and frees up space underneath for your laptop, keyboard and essentials.",
+    "specs": {
+      "Compatible with": "Monitors, laptops, keyboards",
+      "Material": "MDF with wood surface",
+      "Feature": "Extendable",
+      "Installation": "Tabletop",
+      "Size": "118 × 31.5 × 13.5 cm",
+      "Weight": "5.2 kg"
+    }
+  }
+]
