@@ -189,5 +189,20 @@
       "Body": "Stainless steel with clear chamber",
       "Use": "Kitchen, dining table, barbecue"
     }
+  },
+  {
+    "id": "facial-beauty-device",
+    "name": "Handheld Facial Beauty Device",
+    "category": "Beauty & Care",
+    "price": null,
+    "currency": "QAR",
+    "image": "/products/facial-beauty-device.jpg",
+    "description": "A slim, handheld skincare device for your at-home beauty routine. Compact enough to keep on your vanity or pack for travel.",
+    "specs": {
+      "Type": "Handheld, for home use",
+      "Display": "Digital screen",
+      "Controls": "Power and mode buttons",
+      "Use": "Daily facial care routine"
+    }
   }
 ]
