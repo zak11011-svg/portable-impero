@@ -1,30 +1,124 @@
 [
   {
-    "id": "dual-monitor-stand",
-    "name": "Dual-Tier Desk Shelf & Monitor Stand",
-    "category": "Work & Tech",
+    "id": "cordless-heated-lunch-box",
+    "name": "PI Cordless Heated Lunch Box",
+    "category": "Kitchen & On the Go",
     "price": null,
     "currency": "QAR",
-    "image": "/products/dual-monitor-stand.jpg",
-    "description": "An extendable two-level desk shelf that lifts your monitor to eye level and frees up space underneath for your laptop, keyboard and essentials.",
+    "image": "/products/cordless-heated-lunch-box.jpg",
+    "description": "A battery-powered lunch box that warms your food anywhere — at the office, in the car or on a picnic. No socket needed, with a digital display and timer.",
     "specs": {
-      "Compatible with": "Monitors, laptops, keyboards",
-      "Material": "MDF with wood surface",
-      "Feature": "Extendable",
-      "Installation": "Tabletop",
-      "Size": "118 × 31.5 × 13.5 cm",
-      "Weight": "5.2 kg"
+      "Brand": "PI",
+      "Battery": "8000 mAh rechargeable",
+      "Power": "60 W",
+      "Voltage": "7.4 V",
+      "Capacity": "Up to 1 L",
+      "Inner container": "304 stainless steel",
+      "Body": "PP + stainless steel",
+      "Controls": "Digital LED display with timer",
+      "Power options": "Battery, USB, car charger, mains",
+      "Closure": "Buckle",
+      "Certificates": "CE, RoHS, FCC",
+      "Warranty": "6 months"
+    }
+  },
+  {
+    "id": "portable-blender",
+    "name": "PI Portable Rechargeable Blender",
+    "category": "Kitchen & On the Go",
+    "price": null,
+    "currency": "QAR",
+    "image": "/products/portable-blender.jpg",
+    "description": "Fresh smoothies, shakes and baby food wherever you are. A slim, cordless blender with a carry strap that fits in your bag, car cup holder or gym locker.",
+    "specs": {
+      "Brand": "PI",
+      "Capacity": "350 ml",
+      "Blades": "4 blades",
+      "Power": "50 W",
+      "Speed": "1 speed",
+      "Container": "BPA-free",
+      "Body": "ABS",
+      "Features": "Low noise, easy to clean, carry strap",
+      "Use": "Home, office, gym, car, outdoor",
+      "Warranty": "6 months"
+    }
+  },
+  {
+    "id": "cordless-bladeless-fan",
+    "name": "PI Cordless Bladeless Fan with Ambient Light",
+    "category": "Home & Cooling",
+    "price": null,
+    "currency": "QAR",
+    "image": "/products/cordless-bladeless-fan.jpg",
+    "description": "A quiet, rechargeable bladeless fan with a soft ambient night light. No blades to clean, no cable needed — move it from desk to bedside to car.",
+    "specs": {
+      "Brand": "PI",
+      "Battery": "3500 mAh rechargeable",
+      "Power": "10 W",
+      "Speeds": "9 fan speeds",
+      "Night light": "LED ambient light, 3 brightness levels",
+      "Oscillation": "Yes (shaking head)",
+      "Noise level": "30–34 dB",
+      "Motor": "Brushless (BLDC), bladeless design",
+      "Controls": "Digital display",
+      "Power options": "Battery, USB, mains",
+      "Size": "12.6 × 12.6 × 34 cm",
+      "Material": "Plastic",
+      "Warranty": "6 months"
+    }
+  },
+  {
+    "id": "rechargeable-camping-fan",
+    "name": "PI Rechargeable Outdoor Fan with LED Light Ring",
+    "category": "Outdoor & Camping",
+    "price": null,
+    "currency": "QAR",
+    "image": "/products/rechargeable-camping-fan.jpg",
+    "description": "A tough, cordless fan with a built-in LED light ring and a huge 20,000 mAh battery. Built for camping, the beach, the car or power cuts at home, with a carry handle to take it anywhere.",
+    "specs": {
+      "Brand": "PI",
+      "Battery": "20,000 mAh lithium, rechargeable",
+      "Power": "15 W",
+      "Speeds": "4 fan speeds",
+      "Oscillation": "Yes",
+      "Light": "Built-in LED light ring",
+      "Motor": "DC motor, low noise",
+      "Power options": "Battery, USB, car charger",
+      "Material": "ABS",
+      "Use": "Camping, outdoor, car, home",
+      "Warranty": "6 months"
+    }
+  },
+  {
+    "id": "portable-bottle-warmer",
+    "name": "PI Portable Baby Bottle Warmer",
+    "category": "Baby & Family",
+    "price": null,
+    "currency": "QAR",
+    "image": "/products/portable-bottle-warmer.jpg",
+    "description": "Warm milk to the perfect temperature anywhere — in the car, at the mall or on a trip. A rechargeable, cordless bottle with a digital temperature display, ready whenever your baby is.",
+    "specs": {
+      "Brand": "PI",
+      "Battery": "15,000 mAh rechargeable",
+      "Capacity": "350 ml, with measurement marks",
+      "Display": "Digital temperature display (°C / °F)",
+      "Controls": "Electronic buttons",
+      "Power options": "Battery, USB",
+      "Material": "Plastic",
+      "Use": "Car, home, travel, outdoor",
+      "Warranty": "6 months"
     }
   },
   {
     "id": "triple-laptop-screen-extender",
-    "name": "Triple Laptop Screen Extender",
+    "name": "PI Triple Laptop Screen Extender",
     "category": "Work & Tech",
     "price": null,
     "currency": "QAR",
     "image": "/products/triple-laptop-screen-extender.jpg",
     "description": "Two fold-out screens that clip onto your laptop and turn it into a three-screen workstation. Plugs in with USB-C and folds flat to take anywhere.",
     "specs": {
+      "Brand": "PI",
       "Screen size": "14 inch (x2)",
       "Resolution": "1920 × 1200 (Full HD+)",
       "Panel": "IPS A+ grade, matte",
@@ -37,172 +131,8 @@
       "Fits laptops": "12–17.3 inch",
       "Touch screen": "No",
       "Speakers": "No",
-      "Material": "Plastic"
-    }
-  },
-  {
-    "id": "cordless-heated-lunch-box",
-    "name": "Cordless Heated Lunch Box",
-    "category": "Kitchen & On the Go",
-    "price": null,
-    "currency": "QAR",
-    "image": "/products/cordless-heated-lunch-box.jpg",
-    "description": "A battery-powered lunch box that warms your food anywhere — at the office, in the car or on a picnic. No socket needed, with a digital display and timer.",
-    "specs": {
-      "Battery": "8000 mAh rechargeable",
-      "Power": "60 W",
-      "Voltage": "7.4 V",
-      "Capacity": "Up to 1 L",
-      "Inner container": "304 stainless steel",
-      "Body": "PP + stainless steel",
-      "Controls": "Digital LED display with timer",
-      "Power options": "Battery, USB, car charger, mains",
-      "Closure": "Buckle",
-      "Certificates": "CE, RoHS, FCC"
-    }
-  },
-  {
-    "id": "cordless-bladeless-fan",
-    "name": "Cordless Bladeless Fan with Ambient Light",
-    "category": "Home & Cooling",
-    "price": null,
-    "currency": "QAR",
-    "image": "/products/cordless-bladeless-fan.jpg",
-    "description": "A quiet, rechargeable bladeless fan with a soft ambient night light. No blades to clean, no cable needed — move it from desk to bedside to car.",
-    "specs": {
-      "Battery": "3500 mAh rechargeable",
-      "Power": "10 W",
-      "Speeds": "9 fan speeds",
-      "Night light": "LED ambient light, 3 brightness levels",
-      "Oscillation": "Yes (shaking head)",
-      "Noise level": "30–34 dB",
-      "Motor": "Brushless (BLDC), bladeless design",
-      "Controls": "Digital display",
-      "Power options": "Battery, USB, mains",
-      "Size": "12.6 × 12.6 × 34 cm",
-      "Material": "Plastic"
-    }
-  },
-  {
-    "id": "magnetic-laptop-phone-mount",
-    "name": "Magnetic Laptop Phone Mount",
-    "category": "Work & Tech",
-    "price": null,
-    "currency": "QAR",
-    "image": "/products/magnetic-laptop-phone-mount.jpg",
-    "description": "A slim aluminium mount that attaches to the side of your laptop screen and holds your phone magnetically beside it. Perfect as a second screen for calls, chats or notes, and folds flat to carry anywhere.",
-    "specs": {
-      "Fits": "Phones and small tablets, 3–8 inch, all brands",
-      "Material": "Aluminium alloy",
-      "Mounting": "Magnetic",
-      "Features": "Foldable, adjustable, portable, mini size",
-      "Use": "Laptop, desk, bedside, car dashboard"
-    }
-  },
-  {
-    "id": "rechargeable-camping-fan",
-    "name": "Rechargeable Outdoor Fan with LED Light Ring",
-    "category": "Outdoor & Camping",
-    "price": null,
-    "currency": "QAR",
-    "image": "/products/rechargeable-camping-fan.jpg",
-    "description": "A tough, cordless fan with a built-in LED light ring and a huge 20,000 mAh battery. Built for camping, the beach, the car or power cuts at home, with a carry handle to take it anywhere.",
-    "specs": {
-      "Battery": "20,000 mAh lithium, rechargeable",
-      "Power": "15 W",
-      "Speeds": "4 fan speeds",
-      "Oscillation": "Yes",
-      "Light": "Built-in LED light ring",
-      "Motor": "DC motor, low noise",
-      "Power options": "Battery, USB, car charger",
-      "Material": "ABS",
-      "Use": "Camping, outdoor, car, home"
-    }
-  },
-  {
-    "id": "portable-ice-maker",
-    "name": "Portable Countertop Ice Maker",
-    "category": "Kitchen & On the Go",
-    "price": null,
-    "currency": "QAR",
-    "image": "/products/portable-ice-maker.jpg",
-    "description": "Fresh ice cubes in minutes, anywhere you have power — at home, in the majlis, on the boat or at the camp. Just add water, press start and scoop.",
-    "specs": {
-      "Ice shape": "Cube",
-      "Daily output": "40–50 kg/day",
-      "Water tank": "5 L",
-      "Water type": "Tap or bottled water",
-      "Controls": "Touch panel, app control",
-      "Housing": "Stainless steel",
-      "Power options": "Mains, car power supply",
-      "Energy rating": "A+++",
-      "Includes": "Ice scoop"
-    }
-  },
-  {
-    "id": "portable-bottle-warmer",
-    "name": "Portable Baby Bottle Warmer",
-    "category": "Baby & Family",
-    "price": null,
-    "currency": "QAR",
-    "image": "/products/portable-bottle-warmer.jpg",
-    "description": "Warm milk to the perfect temperature anywhere — in the car, at the mall or on a trip. A rechargeable, cordless bottle with a digital temperature display, ready whenever your baby is.",
-    "specs": {
-      "Battery": "15,000 mAh rechargeable",
-      "Capacity": "350 ml, with measurement marks",
-      "Display": "Digital temperature display (°C / °F)",
-      "Controls": "Electronic buttons",
-      "Power options": "Battery, USB",
       "Material": "Plastic",
-      "Use": "Car, home, travel, outdoor"
-    }
-  },
-  {
-    "id": "portable-blender",
-    "name": "Portable Rechargeable Blender",
-    "category": "Kitchen & On the Go",
-    "price": null,
-    "currency": "QAR",
-    "image": "/products/portable-blender.jpg",
-    "description": "Fresh smoothies, shakes and baby food wherever you are. A slim, cordless blender with a carry strap that fits in your bag, car cup holder or gym locker.",
-    "specs": {
-      "Capacity": "350 ml",
-      "Blades": "4 blades",
-      "Power": "50 W",
-      "Speed": "1 speed",
-      "Container": "BPA-free",
-      "Body": "ABS",
-      "Features": "Low noise, easy to clean, carry strap",
-      "Use": "Home, office, gym, car, outdoor"
-    }
-  },
-  {
-    "id": "electric-spice-grinder",
-    "name": "Electric Salt & Pepper Grinder",
-    "category": "Kitchen & On the Go",
-    "price": null,
-    "currency": "QAR",
-    "image": "/products/electric-spice-grinder.jpg",
-    "description": "One-touch grinding for salt, pepper and spices, at the table or the barbecue. A sleek stainless steel grinder with a clear chamber so you always see what's inside.",
-    "specs": {
-      "Operation": "One-button",
-      "Body": "Stainless steel with clear chamber",
-      "Use": "Kitchen, dining table, barbecue"
-    }
-  },
-  {
-    "id": "facial-beauty-device",
-    "name": "Handheld Facial Beauty Device",
-    "category": "Beauty & Care",
-    "price": null,
-    "currency": "QAR",
-    "image": "/products/facial-beauty-device.jpg",
-    "description": "A slim, handheld skincare device for your at-home beauty routine. Compact enough to keep on your vanity or pack for travel.",
-    "specs": {
-      "Type": "Handheld, for home use",
-      "Display": "Digital screen",
-      "Controls": "Power and mode buttons",
-      "Use": "Daily facial care routine"
+      "Warranty": "6 months"
     }
   }
 ]

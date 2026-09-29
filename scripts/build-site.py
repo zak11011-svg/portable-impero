@@ -117,6 +117,7 @@ def build():
 <section class="values" aria-label="Why Portable Impero">
   <div><h2>Cordless</h2><p>Battery-powered, so they work wherever you are.</p></div>
   <div><h2>Curated</h2><p>Every piece chosen for everyday use in Qatar.</p></div>
+  <div><h2>6-month warranty</h2><p>Every PI product is covered for six months.</p></div>
   <div><h2>Local</h2><p>Based in Doha, delivering across Qatar.</p></div>
 </section>
 
