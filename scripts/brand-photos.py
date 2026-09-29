@@ -2,7 +2,7 @@
 # Originals live in public/products/original/; run: python3 scripts_brand.py
 import glob, os
 from PIL import Image, ImageDraw
-POS = {"cordless-heated-lunch-box": ("right", 0.40)}  # (side, vertical fraction)
+POS = {"cordless-heated-lunch-box": ("right", 0.40), "tripod-camping-light": ("right", None)}  # (side, vertical fraction)
 logo = Image.open("public/brand/logo.png")
 for orig in sorted(glob.glob("public/products/original/*.jpg")):
     name = os.path.splitext(os.path.basename(orig))[0]

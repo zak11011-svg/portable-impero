@@ -179,6 +179,29 @@
     }
   },
   {
+    "id": "tripod-camping-light",
+    "name": "PI Rechargeable Tripod Camping Light",
+    "category": "Outdoor & Camping",
+    "price": null,
+    "currency": "QAR",
+    "image": "/products/tripod-camping-light.jpg",
+    "description": "Light up the whole camp, no generator needed. A tall, foldable tripod light with bright LED panels, three colour temperatures and a remote control, so you can set the mood from your chair.",
+    "specs": {
+      "Brand": "PI",
+      "Light source": "LED, 130 lm/W",
+      "Colour temperature": "3500K warm white, 4100K neutral white, 6000K daylight",
+      "Dimmable": "Yes",
+      "Controls": "Switch and remote control",
+      "Battery": "Rechargeable lithium",
+      "Charging": "USB Type-C",
+      "Water resistance": "IP65",
+      "Working temperature": "−10 to 50 °C",
+      "Material": "ABS, aluminium and PC",
+      "Certificates": "CE, FCC, RoHS",
+      "Warranty": "6 months"
+    }
+  },
+  {
     "id": "portable-bottle-warmer",
     "name": "PI Portable Baby Bottle Warmer",
     "category": "Baby & Family",
