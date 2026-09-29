@@ -22,6 +22,7 @@ YEAR = 2026
 
 CATEGORY_ORDER = [
     "Home & Majlis",
+    "Car",
     "Kitchen & On the Go",
     "Home & Cooling",
     "Outdoor & Camping",

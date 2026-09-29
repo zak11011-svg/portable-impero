@@ -23,6 +23,28 @@
     }
   },
   {
+    "id": "cordless-car-vacuum",
+    "name": "PI Cordless Car Vacuum",
+    "category": "Car",
+    "price": null,
+    "currency": "QAR",
+    "image": "/products/cordless-car-vacuum.jpg",
+    "description": "Sand, dust and crumbs gone in minutes. A powerful handheld vacuum with a digital display and a full set of nozzles and brushes to reach every corner of your car, desk or home.",
+    "specs": {
+      "Brand": "PI",
+      "Power": "100 W, 3 power levels",
+      "Battery": "3 × 2000 mAh rechargeable",
+      "Runtime": "12–15 minutes",
+      "Dust cup": "0.4 L",
+      "Display": "Digital display with battery level",
+      "Includes": "Multiple nozzles and brushes, USB charging cable",
+      "Material": "ABS, PP and alloy",
+      "Colours": "Black, Silver Blue, Silver Red, Silver Purple",
+      "Use": "Car, home, office",
+      "Warranty": "6 months"
+    }
+  },
+  {
     "id": "cordless-heated-lunch-box",
     "name": "PI Cordless Heated Lunch Box",
     "category": "Kitchen & On the Go",
