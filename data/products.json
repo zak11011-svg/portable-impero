@@ -113,6 +113,26 @@
     }
   },
   {
+    "id": "bladeless-neck-fan",
+    "name": "PI Bladeless Neck Fan",
+    "category": "Home & Cooling",
+    "price": null,
+    "currency": "QAR",
+    "image": "/products/bladeless-neck-fan.jpg",
+    "description": "Hands-free cooling for Qatar summers. Wear it around your neck on the walk to the car, in a queue or at an outdoor event. Bladeless, so it never catches your hair.",
+    "specs": {
+      "Brand": "PI",
+      "Design": "Wearable, bladeless",
+      "Battery": "3000 mAh or 4000 mAh rechargeable",
+      "Power": "5 W",
+      "Charging": "USB, 5 V / 1 A",
+      "Speeds": "Multiple speed settings",
+      "Material": "ABS",
+      "In the box": "Neck fan, charging cable, user manual",
+      "Warranty": "6 months"
+    }
+  },
+  {
     "id": "rechargeable-camping-fan",
     "name": "PI Rechargeable Outdoor Fan with LED Light Ring",
     "category": "Outdoor & Camping",
