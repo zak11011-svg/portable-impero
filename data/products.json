@@ -69,6 +69,28 @@
     }
   },
   {
+    "id": "car-aroma-diffuser",
+    "name": "PI Car Aroma Diffuser",
+    "category": "Car",
+    "price": null,
+    "currency": "QAR",
+    "image": "/products/car-aroma-diffuser.jpg",
+    "description": "Your signature scent on every drive. A sleek aroma diffuser that sits in your cup holder and releases a fine, long-lasting mist from its faceted crystal-style tank. Also at home on your desk or bedside.",
+    "specs": {
+      "Brand": "PI",
+      "Type": "Ultrasonic aroma diffuser",
+      "Mist": "Ultrasonic nano mist",
+      "Scent": "Long-lasting",
+      "Tank": "Hexagonal faceted crystal-style tank",
+      "Power": "USB",
+      "Fits": "Car cup holder",
+      "Material": "Aluminium alloy, PCTG and ABS",
+      "Size": "7 × 4.65 × 13 cm",
+      "Use": "Car, desk, bedside",
+      "Warranty": "6 months"
+    }
+  },
+  {
     "id": "cordless-heated-lunch-box",
     "name": "PI Cordless Heated Lunch Box",
     "category": "Kitchen & On the Go",
