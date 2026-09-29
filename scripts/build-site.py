@@ -117,7 +117,7 @@ def build():
 <section class="values" aria-label="Why Portable Impero">
   <div><h2>Cordless</h2><p>Battery-powered, so they work wherever you are.</p></div>
   <div><h2>Curated</h2><p>Every piece chosen for everyday use in Qatar.</p></div>
-  <div><h2>Local</h2><p>A family business based in Doha.</p></div>
+  <div><h2>Local</h2><p>Based in Doha, delivering across Qatar.</p></div>
 </section>
 
 <section id="shop" class="shop">
@@ -130,7 +130,7 @@ def build():
 
 <section id="about" class="about">
   <h2 class="section-title">About us</h2>
-  <p>Portable Impero is a family business from Doha, part of the Impero family of brands. We bring together smart,
+  <p>Portable Impero is based in Doha. We bring together smart,
   portable and cordless products that make everyday life easier &mdash; at home, at the office, on the road and outdoors.</p>
   {enquire_button(large=True)}
 </section>
@@ -149,7 +149,7 @@ document.querySelectorAll('.chip').forEach(function (b) {{
 """
     with open(os.path.join(PUBLIC, "index.html"), "w") as fh:
         fh.write(page(f"{SITE_NAME} | Cordless essentials in Qatar",
-                      "Cordless, rechargeable essentials for home, work, car and camping. A family business in Doha, Qatar.",
+                      "Cordless, rechargeable essentials for home, work, car and camping. Based in Doha, Qatar.",
                       home))
 
     for p in products:
