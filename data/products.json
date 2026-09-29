@@ -45,6 +45,30 @@
     }
   },
   {
+    "id": "portable-tyre-inflator",
+    "name": "PI Portable Tyre Inflator",
+    "category": "Car",
+    "price": null,
+    "currency": "QAR",
+    "image": "/products/portable-tyre-inflator.jpg",
+    "description": "Pocket-sized air power for every trip. Check and top up your pressure on the digital display. Ideal for re-inflating after the dunes, topping up before a road trip, or pumping up bikes and balls.",
+    "specs": {
+      "Brand": "PI",
+      "Max pressure": "150 PSI",
+      "Display": "Digital pressure gauge (PSI, BAR, KPA, kg/cm²)",
+      "Power": "60 W, 7.4 V",
+      "Charging": "USB Type-C",
+      "Functions": "Inflation, tyre pressure monitor, light, warning light",
+      "Fits": "Car, motorcycle, scooter, bicycle, balls",
+      "In the box": "Inflator, 4 nozzle adapters, charging cable",
+      "Material": "PC and metal",
+      "Size": "7.4 × 5 × 12.1 cm",
+      "Weight": "About 390 g",
+      "Colour": "Black",
+      "Warranty": "6 months"
+    }
+  },
+  {
     "id": "cordless-heated-lunch-box",
     "name": "PI Cordless Heated Lunch Box",
     "category": "Kitchen & On the Go",
