@@ -61,5 +61,28 @@
       "Certificates": "CE, RoHS, FCC",
       "Warranty": "1 year"
     }
+  },
+  {
+    "id": "cordless-bladeless-fan",
+    "name": "Cordless Bladeless Fan with Ambient Light",
+    "category": "Home & Cooling",
+    "price": null,
+    "currency": "QAR",
+    "image": "/products/cordless-bladeless-fan.jpg",
+    "description": "A quiet, rechargeable bladeless fan with a soft ambient night light. No blades to clean, no cable needed — move it from desk to bedside to car.",
+    "specs": {
+      "Battery": "3500 mAh rechargeable",
+      "Power": "10 W",
+      "Speeds": "9 fan speeds",
+      "Night light": "LED ambient light, 3 brightness levels",
+      "Oscillation": "Yes (shaking head)",
+      "Noise level": "30–34 dB",
+      "Motor": "Brushless (BLDC), bladeless design",
+      "Controls": "Digital display",
+      "Power options": "Battery, USB, mains",
+      "Size": "12.6 × 12.6 × 34 cm",
+      "Material": "Plastic",
+      "Warranty": "1 year"
+    }
   }
 ]
