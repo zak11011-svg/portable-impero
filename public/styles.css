@@ -118,7 +118,21 @@ a { color: inherit; }
 
 /* About */
 .about { text-align: center; padding-top: 88px; }
-.about p { max-width: 60ch; margin: 0 auto 28px; color: var(--muted); font-size: 17px; }
+.about { display: flex; flex-direction: column; align-items: center; }
+.about .eyebrow { margin-bottom: 8px; }
+.about .section-title { margin-bottom: 36px; }
+.story { max-width: 62ch; text-align: left; }
+.story p { margin: 0 0 20px; color: var(--muted); font-size: 17px; line-height: 1.8; }
+.story p:first-child::first-letter {
+  float: left; font-family: var(--serif); font-weight: 600; font-size: 64px;
+  line-height: 0.85; margin: 6px 10px 0 0; color: var(--bronze);
+}
+.story em { font-family: var(--serif); font-size: 20px; color: var(--ink); }
+.signature {
+  font-family: var(--serif); font-style: italic; font-size: 26px; color: var(--bronze);
+  margin: 16px 0 20px;
+}
+.story-mark { height: 64px; width: auto; margin-bottom: 32px; opacity: 0.85; }
 
 /* Product page */
 .crumbs { max-width: 1200px; margin: 24px auto 0; padding: 0 clamp(16px, 4vw, 32px); font-size: 14px; color: var(--muted); }

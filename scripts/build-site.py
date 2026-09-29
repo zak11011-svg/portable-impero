@@ -129,9 +129,20 @@ def build():
 </section>
 
 <section id="about" class="about">
-  <h2 class="section-title">About us</h2>
-  <p>Portable Impero is based in Doha. We bring together smart,
-  portable and cordless products that make everyday life easier &mdash; at home, at the office, on the road and outdoors.</p>
+  <span class="eyebrow">Our story</span>
+  <h2 class="section-title">Your world, unplugged.</h2>
+  <div class="story">
+    <p>Life in Qatar never stays in one place. The morning starts at home, moves to the office, carries on in the car,
+    and on the best days ends under the stars at a desert camp or by the sea. Yet so many of the things that make those
+    moments comfortable are still tied to a socket.</p>
+    <p>Portable Impero was born in Doha to change that. We search for well-made, cordless and rechargeable essentials:
+    a lunch box that warms your meal on the road, a fan that cools the camp, a blender that fits in your bag. Then we
+    bring them together in one place, chosen for the way people here really live.</p>
+    <p><em>Impero</em> means &ldquo;empire&rdquo;. To us, it is the simple idea that your comfort should go wherever
+    you go &mdash; that every place you spend your day can feel like your own.</p>
+  </div>
+  <p class="signature">Power that travels with you.</p>
+  <img class="story-mark" src="brand/logo.png" alt="" width="40" height="69">
   {enquire_button(large=True)}
 </section>
 
