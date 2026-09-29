@@ -100,5 +100,25 @@
       "Features": "Foldable, adjustable, portable, mini size",
       "Use": "Laptop, desk, bedside, car dashboard"
     }
+  },
+  {
+    "id": "rechargeable-camping-fan",
+    "name": "Rechargeable Outdoor Fan with LED Light Ring",
+    "category": "Outdoor & Camping",
+    "price": null,
+    "currency": "QAR",
+    "image": "/products/rechargeable-camping-fan.jpg",
+    "description": "A tough, cordless fan with a built-in LED light ring and a huge 20,000 mAh battery. Built for camping, the beach, the car or power cuts at home, with a carry handle to take it anywhere.",
+    "specs": {
+      "Battery": "20,000 mAh lithium, rechargeable",
+      "Power": "15 W",
+      "Speeds": "4 fan speeds",
+      "Oscillation": "Yes",
+      "Light": "Built-in LED light ring",
+      "Motor": "DC motor, low noise",
+      "Power options": "Battery, USB, car charger",
+      "Material": "ABS",
+      "Use": "Camping, outdoor, car, home"
+    }
   }
 ]
