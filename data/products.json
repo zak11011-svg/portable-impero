@@ -84,5 +84,21 @@
       "Material": "Plastic",
       "Warranty": "1 year"
     }
+  },
+  {
+    "id": "magnetic-phone-holder",
+    "name": "Magnetic Aluminium Phone & Tablet Holder",
+    "category": "Car & On the Go",
+    "price": null,
+    "currency": "QAR",
+    "image": null,
+    "description": "A compact, flexible magnetic holder for phones and small tablets. Use it on your desk, bedside, car dashboard or bike.",
+    "specs": {
+      "Fits": "Phones and tablets, 3–8 inch, all brands",
+      "Material": "Aluminium alloy",
+      "Mounting": "Magnetic",
+      "Features": "Waterproof, flexible, portable, mini size",
+      "Use": "Desk, bed, living room, car dashboard, riding"
+    }
   }
 ]
