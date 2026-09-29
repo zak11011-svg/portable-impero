@@ -58,8 +58,7 @@
       "Controls": "Digital LED display with timer",
       "Power options": "Battery, USB, car charger, mains",
       "Closure": "Buckle",
-      "Certificates": "CE, RoHS, FCC",
-      "Warranty": "1 year"
+      "Certificates": "CE, RoHS, FCC"
     }
   },
   {
@@ -81,8 +80,7 @@
       "Controls": "Digital display",
       "Power options": "Battery, USB, mains",
       "Size": "12.6 × 12.6 × 34 cm",
-      "Material": "Plastic",
-      "Warranty": "1 year"
+      "Material": "Plastic"
     }
   },
   {
@@ -119,6 +117,26 @@
       "Power options": "Battery, USB, car charger",
       "Material": "ABS",
       "Use": "Camping, outdoor, car, home"
+    }
+  },
+  {
+    "id": "portable-ice-maker",
+    "name": "Portable Countertop Ice Maker",
+    "category": "Kitchen & On the Go",
+    "price": null,
+    "currency": "QAR",
+    "image": "/products/portable-ice-maker.jpg",
+    "description": "Fresh ice cubes in minutes, anywhere you have power — at home, in the majlis, on the boat or at the camp. Just add water, press start and scoop.",
+    "specs": {
+      "Ice shape": "Cube",
+      "Daily output": "40–50 kg/day",
+      "Water tank": "5 L",
+      "Water type": "Tap or bottled water",
+      "Controls": "Touch panel, app control",
+      "Housing": "Stainless steel",
+      "Power options": "Mains, car power supply",
+      "Energy rating": "A+++",
+      "Includes": "Ice scoop"
     }
   }
 ]
