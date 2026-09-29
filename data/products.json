@@ -1,5 +1,28 @@
 [
   {
+    "id": "cordless-bakhoor-burner",
+    "name": "PI Cordless Bakhoor Burner",
+    "category": "Home & Majlis",
+    "price": null,
+    "currency": "QAR",
+    "image": "/products/cordless-bakhoor-burner.jpg",
+    "description": "Traditional bakhoor, reimagined for modern life. A rechargeable electronic incense burner with a warm glow and an ornate bronze-tone lid. No charcoal and no cable, so you can carry the fragrance from the majlis to the bedroom, the office or the car.",
+    "specs": {
+      "Brand": "PI",
+      "Battery": "3600 mAh rechargeable",
+      "Charging": "USB Type-C",
+      "Power": "9 W, 5 V",
+      "Coverage": "10–30 m²",
+      "Noise level": "35 dB",
+      "Material": "Aluminium alloy",
+      "Size": "7 × 7 × 15 cm",
+      "Weight": "434 g",
+      "Certificates": "CE, RoHS, FCC",
+      "Use": "Home, majlis, office, car, hotel",
+      "Warranty": "6 months"
+    }
+  },
+  {
     "id": "cordless-heated-lunch-box",
     "name": "PI Cordless Heated Lunch Box",
     "category": "Kitchen & On the Go",
