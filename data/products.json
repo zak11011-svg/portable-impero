@@ -2,7 +2,7 @@
   {
     "id": "dual-monitor-stand",
     "name": "Dual-Tier Desk Shelf & Monitor Stand",
-    "category": "Home Office",
+    "category": "Work & Tech",
     "price": null,
     "currency": "QAR",
     "image": "/products/dual-monitor-stand.jpg",
@@ -19,7 +19,7 @@
   {
     "id": "triple-laptop-screen-extender",
     "name": "Triple Laptop Screen Extender",
-    "category": "Tech & Work",
+    "category": "Work & Tech",
     "price": null,
     "currency": "QAR",
     "image": "/products/triple-laptop-screen-extender.jpg",
@@ -86,7 +86,7 @@
   {
     "id": "magnetic-laptop-phone-mount",
     "name": "Magnetic Laptop Phone Mount",
-    "category": "Tech & Work",
+    "category": "Work & Tech",
     "price": null,
     "currency": "QAR",
     "image": "/products/magnetic-laptop-phone-mount.jpg",
