@@ -39,5 +39,27 @@
       "Speakers": "No",
       "Material": "Plastic"
     }
+  },
+  {
+    "id": "cordless-heated-lunch-box",
+    "name": "Cordless Heated Lunch Box",
+    "category": "Kitchen & On the Go",
+    "price": null,
+    "currency": "QAR",
+    "image": "/products/cordless-heated-lunch-box.jpg",
+    "description": "A battery-powered lunch box that warms your food anywhere — at the office, in the car or on a picnic. No socket needed, with a digital display and timer.",
+    "specs": {
+      "Battery": "8000 mAh rechargeable",
+      "Power": "60 W",
+      "Voltage": "7.4 V",
+      "Capacity": "Up to 1 L",
+      "Inner container": "304 stainless steel",
+      "Body": "PP + stainless steel",
+      "Controls": "Digital LED display with timer",
+      "Power options": "Battery, USB, car charger, mains",
+      "Closure": "Buckle",
+      "Certificates": "CE, RoHS, FCC",
+      "Warranty": "1 year"
+    }
   }
 ]
