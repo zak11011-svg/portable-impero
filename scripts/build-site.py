@@ -68,6 +68,7 @@ def page(title, description, body, depth=0):
 <link rel="icon" href="{base}brand/logo.png">
 {FONTS}
 <link rel="stylesheet" href="{base}styles.css">
+<script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
 <header class="site-header">
@@ -84,13 +85,25 @@ def page(title, description, body, depth=0):
   <img src="{base}brand/logo.png" alt="" width="22" height="38">
   <p>&copy; {YEAR} Portable Impero &middot; Doha, Qatar</p>
 </footer>
+<script>
+(function () {{
+  var els = document.querySelectorAll('.reveal');
+  if (!('IntersectionObserver' in window)) {{ els.forEach(function (e) {{ e.classList.add('is-in'); }}); return; }}
+  var io = new IntersectionObserver(function (entries) {{
+    entries.forEach(function (en) {{
+      if (en.isIntersecting) {{ en.target.classList.add('is-in'); io.unobserve(en.target); }}
+    }});
+  }}, {{ threshold: 0.12, rootMargin: '0px 0px -40px 0px' }});
+  els.forEach(function (e) {{ io.observe(e); }});
+}})();
+</script>
 </body>
 </html>
 """
 
 
 def card(p):
-    return f"""<a class="card" href="products/{p['id']}" data-cat="{slug(p['category'])}">
+    return f"""<a class="card reveal" href="products/{p['id']}" data-cat="{slug(p['category'])}">
   <div class="card-img"><img src="products/{os.path.basename(p['image'])}" alt="{escape(p['name'])}" loading="lazy"></div>
   <div class="card-body">
     <span class="eyebrow">{escape(p['category'])}</span>
@@ -108,23 +121,40 @@ def build():
     chips = '<button class="chip is-on" data-filter="all" type="button">All</button>' + "".join(
         f'<button class="chip" data-filter="{slug(c)}" type="button">{escape(c)}</button>' for c in cats
     )
+    hero_words = " ".join(
+        f'<span class="w" aria-hidden="true" style="--i:{i}">{escape(w)}</span>' for i, w in enumerate(TAGLINE.split())
+    )
+    ribbon = "".join(
+        f'<figure class="ribbon-item"><img src="products/original/{os.path.basename(p["image"])}" alt="" loading="lazy">'
+        f'<figcaption>{escape(p["name"].removeprefix("PI "))}</figcaption></figure>'
+        for p in products
+    )
     home = f"""
 <section class="hero">
-  <img class="hero-logo" src="brand/logo.png" alt="Portable Impero crest" width="120" height="206">
-  <h1>{TAGLINE}</h1>
-  <p>Cordless, rechargeable essentials for home, work, the car and the desert camp &mdash; curated in Qatar.</p>
-  <a class="btn btn-lg" href="#shop">Explore the collection</a>
+  <div class="hero-glow" aria-hidden="true"></div>
+  <div class="hero-crest">
+    <img class="hero-logo" src="brand/logo.png" alt="Portable Impero crest" width="120" height="206">
+    <span class="hero-sheen" aria-hidden="true"></span>
+  </div>
+  <h1 aria-label="{TAGLINE}">{hero_words}</h1>
+  <p class="hero-sub">Cordless, rechargeable essentials for home, work, the car and the desert camp &mdash; curated in Qatar.</p>
+  <a class="btn btn-lg hero-cta" href="#shop">Explore the collection</a>
+  <a class="scroll-cue" href="#shop" aria-label="Scroll to the collection"><span></span></a>
+</section>
+
+<section class="ribbon" aria-hidden="true">
+  <div class="ribbon-track">{ribbon}{ribbon}</div>
 </section>
 
 <section class="values" aria-label="Why Portable Impero">
-  <div><h2>Cordless</h2><p>Battery-powered, so they work wherever you are.</p></div>
-  <div><h2>Curated</h2><p>Every piece chosen for everyday use in Qatar.</p></div>
-  <div><h2>6-month warranty</h2><p>Every PI product is covered for six months.</p></div>
-  <div><h2>Local</h2><p>Based in Doha, delivering across Qatar.</p></div>
+  <div class="reveal"><h2>Cordless</h2><p>Battery-powered, so they work wherever you are.</p></div>
+  <div class="reveal"><h2>Curated</h2><p>Every piece chosen for everyday use in Qatar.</p></div>
+  <div class="reveal"><h2>6-month warranty</h2><p>Every PI product is covered for six months.</p></div>
+  <div class="reveal"><h2>Local</h2><p>Based in Doha, delivering across Qatar.</p></div>
 </section>
 
 <section id="shop" class="shop">
-  <h2 class="section-title">The collection</h2>
+  <h2 class="section-title reveal">The collection</h2>
   <div class="chips" role="toolbar" aria-label="Filter by category">{chips}</div>
   <div class="grid">
 {''.join(card(p) for p in products)}
@@ -132,9 +162,9 @@ def build():
 </section>
 
 <section id="about" class="about">
-  <span class="eyebrow">Our story</span>
-  <h2 class="section-title">Your world, unplugged.</h2>
-  <div class="story">
+  <span class="eyebrow reveal">Our story</span>
+  <h2 class="section-title reveal">Your world, unplugged.</h2>
+  <div class="story reveal">
     <p>Life in Qatar never stays in one place. The morning starts at home, moves to the office, carries on in the car,
     and on the best days ends under the stars at a desert camp or by the sea. Yet so many of the things that make those
     moments comfortable are still tied to a socket.</p>
@@ -144,7 +174,7 @@ def build():
     <p><em>Impero</em> means &ldquo;empire&rdquo;. To us, it is the simple idea that your comfort should go wherever
     you go &mdash; that every place you spend your day can feel like your own.</p>
   </div>
-  <p class="signature">Power that travels with you.</p>
+  <p class="signature reveal">Power that travels with you.</p>
   <img class="story-mark" src="brand/logo.png" alt="" width="40" height="69">
   {enquire_button(large=True)}
 </section>

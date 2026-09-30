@@ -10,6 +10,7 @@
 <link rel="icon" href="../brand/logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Jost:wght@400;500&display=swap">
 <link rel="stylesheet" href="../styles.css">
+<script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
 <header class="site-header">
@@ -33,7 +34,7 @@
     <table class="specs"><tr><th>Brand</th><td>PI</td></tr><tr><th>Light source</th><td>LED, 130 lm/W</td></tr><tr><th>Colour temperature</th><td>3500K warm white, 4100K neutral white, 6000K daylight</td></tr><tr><th>Dimmable</th><td>Yes</td></tr><tr><th>Controls</th><td>Switch and remote control</td></tr><tr><th>Battery</th><td>Rechargeable lithium</td></tr><tr><th>Charging</th><td>USB Type-C</td></tr><tr><th>Water resistance</th><td>IP65</td></tr><tr><th>Working temperature</th><td>−10 to 50 °C</td></tr><tr><th>Material</th><td>ABS, aluminium and PC</td></tr><tr><th>Certificates</th><td>CE, FCC, RoHS</td></tr><tr><th>Warranty</th><td>6 months</td></tr></table>
   </div>
 </article>
-<section class="related"><h2 class="section-title">You may also like</h2><div class="grid"><a class="card" href="rechargeable-camping-fan" data-cat="outdoor-camping">
+<section class="related"><h2 class="section-title">You may also like</h2><div class="grid"><a class="card reveal" href="rechargeable-camping-fan" data-cat="outdoor-camping">
   <div class="card-img"><img src="rechargeable-camping-fan.jpg" alt="PI Rechargeable Outdoor Fan with LED Light Ring" loading="lazy"></div>
   <div class="card-body">
     <span class="eyebrow">Outdoor &amp; Camping</span>
@@ -46,5 +47,17 @@
   <img src="../brand/logo.png" alt="" width="22" height="38">
   <p>&copy; 2026 Portable Impero &middot; Doha, Qatar</p>
 </footer>
+<script>
+(function () {
+  var els = document.querySelectorAll('.reveal');
+  if (!('IntersectionObserver' in window)) { els.forEach(function (e) { e.classList.add('is-in'); }); return; }
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (en) {
+      if (en.isIntersecting) { en.target.classList.add('is-in'); io.unobserve(en.target); }
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+  els.forEach(function (e) { io.observe(e); });
+})();
+</script>
 </body>
 </html>

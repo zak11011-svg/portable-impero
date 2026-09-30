@@ -10,6 +10,7 @@
 <link rel="icon" href="../brand/logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Jost:wght@400;500&display=swap">
 <link rel="stylesheet" href="../styles.css">
+<script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
 <header class="site-header">
@@ -33,13 +34,13 @@
     <table class="specs"><tr><th>Brand</th><td>PI</td></tr><tr><th>Max pressure</th><td>150 PSI</td></tr><tr><th>Display</th><td>Digital pressure gauge (PSI, BAR, KPA, kg/cm²)</td></tr><tr><th>Power</th><td>60 W, 7.4 V</td></tr><tr><th>Charging</th><td>USB Type-C</td></tr><tr><th>Functions</th><td>Inflation, tyre pressure monitor, light, warning light</td></tr><tr><th>Fits</th><td>Car, motorcycle, scooter, bicycle, balls</td></tr><tr><th>In the box</th><td>Inflator, 4 nozzle adapters, charging cable</td></tr><tr><th>Material</th><td>PC and metal</td></tr><tr><th>Size</th><td>7.4 × 5 × 12.1 cm</td></tr><tr><th>Weight</th><td>About 390 g</td></tr><tr><th>Colour</th><td>Black</td></tr><tr><th>Warranty</th><td>6 months</td></tr></table>
   </div>
 </article>
-<section class="related"><h2 class="section-title">You may also like</h2><div class="grid"><a class="card" href="cordless-car-vacuum" data-cat="car">
+<section class="related"><h2 class="section-title">You may also like</h2><div class="grid"><a class="card reveal" href="cordless-car-vacuum" data-cat="car">
   <div class="card-img"><img src="cordless-car-vacuum.jpg" alt="PI Cordless Car Vacuum" loading="lazy"></div>
   <div class="card-body">
     <span class="eyebrow">Car</span>
     <h3>PI Cordless Car Vacuum</h3>
   </div>
-</a><a class="card" href="car-aroma-diffuser" data-cat="car">
+</a><a class="card reveal" href="car-aroma-diffuser" data-cat="car">
   <div class="card-img"><img src="car-aroma-diffuser.jpg" alt="PI Car Aroma Diffuser" loading="lazy"></div>
   <div class="card-body">
     <span class="eyebrow">Car</span>
@@ -52,5 +53,17 @@
   <img src="../brand/logo.png" alt="" width="22" height="38">
   <p>&copy; 2026 Portable Impero &middot; Doha, Qatar</p>
 </footer>
+<script>
+(function () {
+  var els = document.querySelectorAll('.reveal');
+  if (!('IntersectionObserver' in window)) { els.forEach(function (e) { e.classList.add('is-in'); }); return; }
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (en) {
+      if (en.isIntersecting) { en.target.classList.add('is-in'); io.unobserve(en.target); }
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+  els.forEach(function (e) { io.observe(e); });
+})();
+</script>
 </body>
 </html>

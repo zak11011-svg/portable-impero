@@ -10,6 +10,7 @@
 <link rel="icon" href="brand/logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Jost:wght@400;500&display=swap">
 <link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
 <header class="site-header">
@@ -22,90 +23,99 @@
 <main>
 
 <section class="hero">
-  <img class="hero-logo" src="brand/logo.png" alt="Portable Impero crest" width="120" height="206">
-  <h1>Power that travels with you.</h1>
-  <p>Cordless, rechargeable essentials for home, work, the car and the desert camp &mdash; curated in Qatar.</p>
-  <a class="btn btn-lg" href="#shop">Explore the collection</a>
+  <div class="hero-glow" aria-hidden="true"></div>
+  <div class="hero-crest">
+    <img class="hero-logo" src="brand/logo.png" alt="Portable Impero crest" width="120" height="206">
+    <span class="hero-sheen" aria-hidden="true"></span>
+  </div>
+  <h1 aria-label="Power that travels with you."><span class="w" aria-hidden="true" style="--i:0">Power</span> <span class="w" aria-hidden="true" style="--i:1">that</span> <span class="w" aria-hidden="true" style="--i:2">travels</span> <span class="w" aria-hidden="true" style="--i:3">with</span> <span class="w" aria-hidden="true" style="--i:4">you.</span></h1>
+  <p class="hero-sub">Cordless, rechargeable essentials for home, work, the car and the desert camp &mdash; curated in Qatar.</p>
+  <a class="btn btn-lg hero-cta" href="#shop">Explore the collection</a>
+  <a class="scroll-cue" href="#shop" aria-label="Scroll to the collection"><span></span></a>
+</section>
+
+<section class="ribbon" aria-hidden="true">
+  <div class="ribbon-track"><figure class="ribbon-item"><img src="products/original/cordless-bakhoor-burner.jpg" alt="" loading="lazy"><figcaption>Cordless Bakhoor Burner</figcaption></figure><figure class="ribbon-item"><img src="products/original/cordless-car-vacuum.jpg" alt="" loading="lazy"><figcaption>Cordless Car Vacuum</figcaption></figure><figure class="ribbon-item"><img src="products/original/portable-tyre-inflator.jpg" alt="" loading="lazy"><figcaption>Portable Tyre Inflator</figcaption></figure><figure class="ribbon-item"><img src="products/original/car-aroma-diffuser.jpg" alt="" loading="lazy"><figcaption>Car Aroma Diffuser</figcaption></figure><figure class="ribbon-item"><img src="products/original/cordless-heated-lunch-box.jpg" alt="" loading="lazy"><figcaption>Cordless Heated Lunch Box</figcaption></figure><figure class="ribbon-item"><img src="products/original/portable-blender.jpg" alt="" loading="lazy"><figcaption>Portable Rechargeable Blender</figcaption></figure><figure class="ribbon-item"><img src="products/original/cordless-bladeless-fan.jpg" alt="" loading="lazy"><figcaption>Cordless Bladeless Fan with Ambient Light</figcaption></figure><figure class="ribbon-item"><img src="products/original/bladeless-neck-fan.jpg" alt="" loading="lazy"><figcaption>Bladeless Neck Fan</figcaption></figure><figure class="ribbon-item"><img src="products/original/rechargeable-camping-fan.jpg" alt="" loading="lazy"><figcaption>Rechargeable Outdoor Fan with LED Light Ring</figcaption></figure><figure class="ribbon-item"><img src="products/original/tripod-camping-light.jpg" alt="" loading="lazy"><figcaption>Rechargeable Tripod Camping Light</figcaption></figure><figure class="ribbon-item"><img src="products/original/triple-laptop-screen-extender.jpg" alt="" loading="lazy"><figcaption>Triple Laptop Screen Extender</figcaption></figure><figure class="ribbon-item"><img src="products/original/portable-bottle-warmer.jpg" alt="" loading="lazy"><figcaption>Portable Baby Bottle Warmer</figcaption></figure><figure class="ribbon-item"><img src="products/original/cordless-bakhoor-burner.jpg" alt="" loading="lazy"><figcaption>Cordless Bakhoor Burner</figcaption></figure><figure class="ribbon-item"><img src="products/original/cordless-car-vacuum.jpg" alt="" loading="lazy"><figcaption>Cordless Car Vacuum</figcaption></figure><figure class="ribbon-item"><img src="products/original/portable-tyre-inflator.jpg" alt="" loading="lazy"><figcaption>Portable Tyre Inflator</figcaption></figure><figure class="ribbon-item"><img src="products/original/car-aroma-diffuser.jpg" alt="" loading="lazy"><figcaption>Car Aroma Diffuser</figcaption></figure><figure class="ribbon-item"><img src="products/original/cordless-heated-lunch-box.jpg" alt="" loading="lazy"><figcaption>Cordless Heated Lunch Box</figcaption></figure><figure class="ribbon-item"><img src="products/original/portable-blender.jpg" alt="" loading="lazy"><figcaption>Portable Rechargeable Blender</figcaption></figure><figure class="ribbon-item"><img src="products/original/cordless-bladeless-fan.jpg" alt="" loading="lazy"><figcaption>Cordless Bladeless Fan with Ambient Light</figcaption></figure><figure class="ribbon-item"><img src="products/original/bladeless-neck-fan.jpg" alt="" loading="lazy"><figcaption>Bladeless Neck Fan</figcaption></figure><figure class="ribbon-item"><img src="products/original/rechargeable-camping-fan.jpg" alt="" loading="lazy"><figcaption>Rechargeable Outdoor Fan with LED Light Ring</figcaption></figure><figure class="ribbon-item"><img src="products/original/tripod-camping-light.jpg" alt="" loading="lazy"><figcaption>Rechargeable Tripod Camping Light</figcaption></figure><figure class="ribbon-item"><img src="products/original/triple-laptop-screen-extender.jpg" alt="" loading="lazy"><figcaption>Triple Laptop Screen Extender</figcaption></figure><figure class="ribbon-item"><img src="products/original/portable-bottle-warmer.jpg" alt="" loading="lazy"><figcaption>Portable Baby Bottle Warmer</figcaption></figure></div>
 </section>
 
 <section class="values" aria-label="Why Portable Impero">
-  <div><h2>Cordless</h2><p>Battery-powered, so they work wherever you are.</p></div>
-  <div><h2>Curated</h2><p>Every piece chosen for everyday use in Qatar.</p></div>
-  <div><h2>6-month warranty</h2><p>Every PI product is covered for six months.</p></div>
-  <div><h2>Local</h2><p>Based in Doha, delivering across Qatar.</p></div>
+  <div class="reveal"><h2>Cordless</h2><p>Battery-powered, so they work wherever you are.</p></div>
+  <div class="reveal"><h2>Curated</h2><p>Every piece chosen for everyday use in Qatar.</p></div>
+  <div class="reveal"><h2>6-month warranty</h2><p>Every PI product is covered for six months.</p></div>
+  <div class="reveal"><h2>Local</h2><p>Based in Doha, delivering across Qatar.</p></div>
 </section>
 
 <section id="shop" class="shop">
-  <h2 class="section-title">The collection</h2>
+  <h2 class="section-title reveal">The collection</h2>
   <div class="chips" role="toolbar" aria-label="Filter by category"><button class="chip is-on" data-filter="all" type="button">All</button><button class="chip" data-filter="home-majlis" type="button">Home &amp; Majlis</button><button class="chip" data-filter="car" type="button">Car</button><button class="chip" data-filter="kitchen-on-the-go" type="button">Kitchen &amp; On the Go</button><button class="chip" data-filter="home-cooling" type="button">Home &amp; Cooling</button><button class="chip" data-filter="outdoor-camping" type="button">Outdoor &amp; Camping</button><button class="chip" data-filter="work-tech" type="button">Work &amp; Tech</button><button class="chip" data-filter="baby-family" type="button">Baby &amp; Family</button></div>
   <div class="grid">
-<a class="card" href="products/cordless-bakhoor-burner" data-cat="home-majlis">
+<a class="card reveal" href="products/cordless-bakhoor-burner" data-cat="home-majlis">
   <div class="card-img"><img src="products/cordless-bakhoor-burner.jpg" alt="PI Cordless Bakhoor Burner" loading="lazy"></div>
   <div class="card-body">
     <span class="eyebrow">Home &amp; Majlis</span>
     <h3>PI Cordless Bakhoor Burner</h3>
   </div>
-</a><a class="card" href="products/cordless-car-vacuum" data-cat="car">
+</a><a class="card reveal" href="products/cordless-car-vacuum" data-cat="car">
   <div class="card-img"><img src="products/cordless-car-vacuum.jpg" alt="PI Cordless Car Vacuum" loading="lazy"></div>
   <div class="card-body">
     <span class="eyebrow">Car</span>
     <h3>PI Cordless Car Vacuum</h3>
   </div>
-</a><a class="card" href="products/portable-tyre-inflator" data-cat="car">
+</a><a class="card reveal" href="products/portable-tyre-inflator" data-cat="car">
   <div class="card-img"><img src="products/portable-tyre-inflator.jpg" alt="PI Portable Tyre Inflator" loading="lazy"></div>
   <div class="card-body">
     <span class="eyebrow">Car</span>
     <h3>PI Portable Tyre Inflator</h3>
   </div>
-</a><a class="card" href="products/car-aroma-diffuser" data-cat="car">
+</a><a class="card reveal" href="products/car-aroma-diffuser" data-cat="car">
   <div class="card-img"><img src="products/car-aroma-diffuser.jpg" alt="PI Car Aroma Diffuser" loading="lazy"></div>
   <div class="card-body">
     <span class="eyebrow">Car</span>
     <h3>PI Car Aroma Diffuser</h3>
   </div>
-</a><a class="card" href="products/cordless-heated-lunch-box" data-cat="kitchen-on-the-go">
+</a><a class="card reveal" href="products/cordless-heated-lunch-box" data-cat="kitchen-on-the-go">
   <div class="card-img"><img src="products/cordless-heated-lunch-box.jpg" alt="PI Cordless Heated Lunch Box" loading="lazy"></div>
   <div class="card-body">
     <span class="eyebrow">Kitchen &amp; On the Go</span>
     <h3>PI Cordless Heated Lunch Box</h3>
   </div>
-</a><a class="card" href="products/portable-blender" data-cat="kitchen-on-the-go">
+</a><a class="card reveal" href="products/portable-blender" data-cat="kitchen-on-the-go">
   <div class="card-img"><img src="products/portable-blender.jpg" alt="PI Portable Rechargeable Blender" loading="lazy"></div>
   <div class="card-body">
     <span class="eyebrow">Kitchen &amp; On the Go</span>
     <h3>PI Portable Rechargeable Blender</h3>
   </div>
-</a><a class="card" href="products/cordless-bladeless-fan" data-cat="home-cooling">
+</a><a class="card reveal" href="products/cordless-bladeless-fan" data-cat="home-cooling">
   <div class="card-img"><img src="products/cordless-bladeless-fan.jpg" alt="PI Cordless Bladeless Fan with Ambient Light" loading="lazy"></div>
   <div class="card-body">
     <span class="eyebrow">Home &amp; Cooling</span>
     <h3>PI Cordless Bladeless Fan with Ambient Light</h3>
   </div>
-</a><a class="card" href="products/bladeless-neck-fan" data-cat="home-cooling">
+</a><a class="card reveal" href="products/bladeless-neck-fan" data-cat="home-cooling">
   <div class="card-img"><img src="products/bladeless-neck-fan.jpg" alt="PI Bladeless Neck Fan" loading="lazy"></div>
   <div class="card-body">
     <span class="eyebrow">Home &amp; Cooling</span>
     <h3>PI Bladeless Neck Fan</h3>
   </div>
-</a><a class="card" href="products/rechargeable-camping-fan" data-cat="outdoor-camping">
+</a><a class="card reveal" href="products/rechargeable-camping-fan" data-cat="outdoor-camping">
   <div class="card-img"><img src="products/rechargeable-camping-fan.jpg" alt="PI Rechargeable Outdoor Fan with LED Light Ring" loading="lazy"></div>
   <div class="card-body">
     <span class="eyebrow">Outdoor &amp; Camping</span>
     <h3>PI Rechargeable Outdoor Fan with LED Light Ring</h3>
   </div>
-</a><a class="card" href="products/tripod-camping-light" data-cat="outdoor-camping">
+</a><a class="card reveal" href="products/tripod-camping-light" data-cat="outdoor-camping">
   <div class="card-img"><img src="products/tripod-camping-light.jpg" alt="PI Rechargeable Tripod Camping Light" loading="lazy"></div>
   <div class="card-body">
     <span class="eyebrow">Outdoor &amp; Camping</span>
     <h3>PI Rechargeable Tripod Camping Light</h3>
   </div>
-</a><a class="card" href="products/triple-laptop-screen-extender" data-cat="work-tech">
+</a><a class="card reveal" href="products/triple-laptop-screen-extender" data-cat="work-tech">
   <div class="card-img"><img src="products/triple-laptop-screen-extender.jpg" alt="PI Triple Laptop Screen Extender" loading="lazy"></div>
   <div class="card-body">
     <span class="eyebrow">Work &amp; Tech</span>
     <h3>PI Triple Laptop Screen Extender</h3>
   </div>
-</a><a class="card" href="products/portable-bottle-warmer" data-cat="baby-family">
+</a><a class="card reveal" href="products/portable-bottle-warmer" data-cat="baby-family">
   <div class="card-img"><img src="products/portable-bottle-warmer.jpg" alt="PI Portable Baby Bottle Warmer" loading="lazy"></div>
   <div class="card-body">
     <span class="eyebrow">Baby &amp; Family</span>
@@ -116,9 +126,9 @@
 </section>
 
 <section id="about" class="about">
-  <span class="eyebrow">Our story</span>
-  <h2 class="section-title">Your world, unplugged.</h2>
-  <div class="story">
+  <span class="eyebrow reveal">Our story</span>
+  <h2 class="section-title reveal">Your world, unplugged.</h2>
+  <div class="story reveal">
     <p>Life in Qatar never stays in one place. The morning starts at home, moves to the office, carries on in the car,
     and on the best days ends under the stars at a desert camp or by the sea. Yet so many of the things that make those
     moments comfortable are still tied to a socket.</p>
@@ -128,7 +138,7 @@
     <p><em>Impero</em> means &ldquo;empire&rdquo;. To us, it is the simple idea that your comfort should go wherever
     you go &mdash; that every place you spend your day can feel like your own.</p>
   </div>
-  <p class="signature">Power that travels with you.</p>
+  <p class="signature reveal">Power that travels with you.</p>
   <img class="story-mark" src="brand/logo.png" alt="" width="40" height="69">
   <span class="btn btn-lg btn-muted">Launching soon in Qatar</span>
 </section>
@@ -150,5 +160,17 @@ document.querySelectorAll('.chip').forEach(function (b) {
   <img src="brand/logo.png" alt="" width="22" height="38">
   <p>&copy; 2026 Portable Impero &middot; Doha, Qatar</p>
 </footer>
+<script>
+(function () {
+  var els = document.querySelectorAll('.reveal');
+  if (!('IntersectionObserver' in window)) { els.forEach(function (e) { e.classList.add('is-in'); }); return; }
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (en) {
+      if (en.isIntersecting) { en.target.classList.add('is-in'); io.unobserve(en.target); }
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+  els.forEach(function (e) { io.observe(e); });
+})();
+</script>
 </body>
 </html>
