@@ -65,6 +65,7 @@ def page(title, description, body, depth=0):
 <meta name="description" content="{escape(description)}">
 <meta property="og:title" content="{escape(title)}">
 <meta property="og:description" content="{escape(description)}">
+<meta property="og:image" content="https://portableimpero.com/brand/og-image.jpg">
 <link rel="icon" href="{base}brand/logo.png">
 {FONTS}
 <link rel="stylesheet" href="{base}styles.css">
@@ -130,13 +131,19 @@ def build():
         for p in products
     )
     home = f"""
-<section class="hero">
-  <div class="hero-glow" aria-hidden="true"></div>
-  <div class="hero-crest">
-    <img class="hero-logo" src="brand/logo.png" alt="Portable Impero crest" width="120" height="206">
-    <span class="hero-sheen" aria-hidden="true"></span>
+<section class="hero hero-cinema">
+  <div class="cinema-bg" aria-hidden="true"></div>
+  <div class="cinema-frame">
+    <div class="cinema-move">
+      <img class="cinema-img" src="brand/hero-desert.jpg" width="1214" height="1295"
+        alt="PI cordless products on a desert rock at sunset beside a camping tent. Portable. Cordless. Limitless.">
+      <span class="cinema-sun" aria-hidden="true"></span>
+      <span class="cinema-lantern" aria-hidden="true"></span>
+    </div>
+    <span class="cinema-sheen" aria-hidden="true"></span>
+    <canvas class="cinema-sand" aria-hidden="true"></canvas>
   </div>
-  <h1 aria-label="{TAGLINE}">{hero_words}</h1>
+  <h1 class="sr-only">Portable. Cordless. Limitless.</h1>
   <p class="hero-sub">Cordless, rechargeable essentials for home, work, the car and the desert camp &mdash; curated in Qatar.</p>
   <a class="btn btn-lg hero-cta" href="#shop">Explore the collection</a>
   <a class="scroll-cue" href="#shop" aria-label="Scroll to the collection"><span></span></a>
@@ -180,6 +187,31 @@ def build():
 </section>
 
 <script>
+(function () {{
+  var c = document.querySelector('.cinema-sand');
+  if (!c || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  var ctx = c.getContext('2d'), ps = [], W = 0, H = 0, dpr = Math.min(window.devicePixelRatio || 1, 2);
+  function size() {{
+    W = c.clientWidth; H = c.clientHeight; c.width = W * dpr; c.height = H * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  }}
+  function spawn(init) {{
+    return {{ x: init ? Math.random() * W : -10, y: H * (0.45 + Math.random() * 0.55),
+      r: 0.4 + Math.random() * 1.4, v: 0.25 + Math.random() * 0.9, a: 0.15 + Math.random() * 0.5,
+      w: Math.random() * Math.PI * 2 }};
+  }}
+  size(); window.addEventListener('resize', size);
+  for (var i = 0; i < 70; i++) ps.push(spawn(true));
+  (function tick() {{
+    ctx.clearRect(0, 0, W, H);
+    ps.forEach(function (p, i) {{
+      p.x += p.v; p.w += 0.02; p.y += Math.sin(p.w) * 0.15;
+      if (p.x > W + 10) ps[i] = spawn(false);
+      ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, 6.283);
+      ctx.fillStyle = 'rgba(255, 214, 160,' + p.a + ')'; ctx.fill();
+    }});
+    requestAnimationFrame(tick);
+  }})();
+}})();
 document.querySelectorAll('.chip').forEach(function (b) {{
   b.addEventListener('click', function () {{
     var f = b.dataset.filter;
